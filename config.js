@@ -10,6 +10,10 @@ function (Settings) {
         url: "<--PROTO-->://<--ADDR-->:<--PORT-->/db/<--DB_NAME-->",
         username: "<--USER-->",
         password: "<--PASS-->",
+      },
+      graphite: {
+        type: 'graphite',
+        url: "<--GRAPHITE_PROTO-->://<--GRAPHITE_ADDR-->:<--GRAPHITE_PORT-->",
       }
     },
     default_route: '/dashboard/file/default.json',
